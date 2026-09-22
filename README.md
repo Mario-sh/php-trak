@@ -94,28 +94,29 @@ Build projects that increase in complexity rather than only completing isolated 
 
 ## Folder Structure
 
-Create one folder for each study day or topic:
+The learning path is separated into PHP first, then Laravel:
 
 ```text
 php-trak/
 ├── README.md
-├── Day00/
+├── php/
 │   ├── README.md
-│   └── index.php
-├── Day01/
-│   ├── README.md
-│   └── index.php
-├── projects/
-│   └── README.md
+│   └── 01-bases/
+│       ├── README.md
+│       ├── exercices/
+│       ├── tp/
+│       └── mini-projets/
+└── laravel/
+	└── README.md
 ```
 
-Each day's `README.md` should contain:
+Use the folders this way:
 
-- Topic and learning objective
-- Key notes and examples
-- Exercises completed
-- Problems encountered and how they were solved
-- A short reflection and next step
+- `exercices/`: one small exercise for one notion
+- `tp/`: practical work combining several notions
+- `mini-projets/`: complete small applications
+
+Each module README should contain the objective, progress, notes, problems, and next step.
 
 ## Git Routine
 
@@ -132,7 +133,7 @@ git push
 
 | Day | Topic | Status | Notes |
 | --- | --- | --- | --- |
-| 00 | Repository setup and learning plan | In progress | Prepare the study structure |
+| PHP 01 | PHP bases | In progress | Start with syntax, variables, conditions, and loops |
 
 ## Definition of Done
 
