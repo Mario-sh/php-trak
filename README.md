@@ -101,11 +101,12 @@ php-trak/
 ├── README.md
 ├── Day00/
 │   ├── README.md
-│   └── exercises/
+│   └── index.php
 ├── Day01/
 │   ├── README.md
-│   └── exercises/
-└── projects/
+│   └── index.php
+├── projects/
+│   └── README.md
 ```
 
 Each day's `README.md` should contain:
